@@ -1,0 +1,3 @@
+- Instructions for manually installing.
+- License
+- Rename this to `Buffet-Ascension` so it appears as its own AddOn.
