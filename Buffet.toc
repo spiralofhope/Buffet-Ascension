@@ -1,14 +1,30 @@
-## Interface: 70100
+# Clique has most recently been tested against Project Ascension:
+#   Version 3.5.5a
+# as of 2024-11-07
+
+# The interface number can be learned with:
+#   /dump select( 4, GetBuildInfo() )
+## Interface: 30300 
 ## Title: Buffet
+
+
 ## Notes: Food/water macro generator
-## Author: Tekkub Stoutwrithe
+## Author: Tekkub Stoutwrithe, spiralofhope
+## Version:               3.5.5.1
+## X-Date:                2024-11-07
+## X-Website:             https://github.com/spiralofhope/Buffet-Ascension
+## X-Feedback:            https://github.com/spiralofhope/Buffet-Ascension/issues
 ## X-Icon: Interface\Icons\INV_Misc_Food_DimSum
 
+
 ## SavedVariablesPerCharacter: BuffetDB
+
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 ## X-LoadOn-InterfaceOptions: Buffet
+
+
 
 LibStub.lua
 tekIDmemo.lua
