@@ -9,7 +9,7 @@ Unlike them, Buffet does not swap items on the action bar (the noise is botherso
 
 This is spiralofhope's fork from tekkub's repository from `1a96512f4b2e58aed7eaf1e0c04e17dedd194dbc`.
 
-While it worked as-is, changes were made for Project Ascension.
+While it worked as-is, changes were made for Project Ascension and Chromiecraft (AzerothCore)
 
 
 
