@@ -22,10 +22,10 @@ To make Buffet work, you must provide two macros, "AutoHP" and "AutoMP".  Drop t
 
 - Edit `Buffet.lua`
 - Scroll down to the relevant section
-- Add an entry in the form of `itemID:priority`, where `itemID` is what you get from one of:
+- Add an entry in the form of `itemID:amount`
+- Where `itemID` is what you get from one of:
   - Place your mouse overtop of the item in your backpack, and:
   - `/run local itemName, itemLink = GameTooltip:GetItem(); if itemLink then print("Item ID:", itemLink:match("item:(%d+)")); end`
   - or place the item in bag 0 slot 1 of your backpack, and:
   - `/run local itemName, itemLink = GameTooltip:GetItem(); if itemLink then print("Item ID:", itemLink:match("item:(%d+)")); else print("Not hovering over an item or the slot is empty"); end`
-
-Notably there is [LibPeriodicTable-3.1](https://www.wowace.com/projects/libperiodictable-3-1), specifically `LibPeriodicTable-3.1-Consumable` within it.  Perhaps [3.3.5](https://www.wowace.com/projects/libperiodictable-3-1/files/502720) is the most appropriate; I don't know.  See also [the LibPeriodicTable-3.1 notes on editing](https://legacy.curseforge.com/wow/addons/libperiodictable-3-1/pages/editing).
+- Where `amount` is how much of either health or mana it gives.

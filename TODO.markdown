@@ -1,3 +1,7 @@
 - Instructions for manually installing.
 - License
 - Rename this to `Buffet-Ascension` so it appears as its own AddOn.
+- Implement [LibPeriodicTable-3.1](https://www.wowace.com/projects/libperiodictable-3-1)
+  - Specifically `LibPeriodicTable-3.1-Consumable` within it.
+  - Perhaps [3.3.5](https://www.wowace.com/projects/libperiodictable-3-1/files/502720) is the most appropriate; I don't know.
+  - See also [the LibPeriodicTable-3.1 notes on editing](https://legacy.curseforge.com/wow/addons/libperiodictable-3-1/pages/editing).
