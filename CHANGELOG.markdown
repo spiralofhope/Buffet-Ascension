@@ -1,6 +1,12 @@
 # 3.5.5
 
 
+## 3.5.5.3 COMING SOON
+
+- (Chromiecraft) Added water `34412` - _Sparkling Apple Cider_
+  - Mailed once attained level 35.
+
+
 ## 3.5.5.2
 
 - Added food `4603` - __Raw Spotted Yellowtail__
